@@ -1,0 +1,11 @@
+{
+  "viewport": {"width": 1280, "height": 800},
+  "browser": "local google-chrome headless",
+  "virtualTimeBudget": 9000,
+  "screenshots": [
+    {"file": "01-collection.png", "url": "app/index.html"},
+    {"file": "02-collectibles.png", "url": "app/index.html?kind=collectible&selected=30"},
+    {"file": "03-missable-watch.png", "url": "app/index.html?kind=watch&selected=34"},
+    {"file": "04-roadmap.png", "url": "app/index.html?view=roadmap"}
+  ]
+}
